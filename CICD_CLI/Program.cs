@@ -1,5 +1,4 @@
-﻿using System.ComponentModel;
-using CICD_Core;
+﻿using CICD_Core;
 
 Console.WriteLine("Enter the first number:");
 int a, b;
