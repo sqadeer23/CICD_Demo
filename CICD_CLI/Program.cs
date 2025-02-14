@@ -5,9 +5,7 @@ Console.WriteLine("Enter the first number:");
 int a, b;
 while (true)
 {
-    string? s = Console.ReadLine();
-
-    if (!int.TryParse(s, out a))
+    if (!int.TryParse(Console.ReadLine(), out a))
     {
         Console.WriteLine("Error: please enter an integer");
     }

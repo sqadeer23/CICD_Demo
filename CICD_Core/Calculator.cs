@@ -9,7 +9,7 @@ namespace CICD_Core
             {
                 throw new DivideByZeroException();
             }
-            return (double)v1 / v2;
+            return (double)v1/v2;
         }
     }
 }
